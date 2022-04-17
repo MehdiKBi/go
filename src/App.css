@@ -6,23 +6,46 @@
   text-align: center;
 }
 
-.toss_btn {
-  margin-top: 40vh;
+
+#image-of-coin {
+  background-image: url('https://www.usmint.gov/wordpress/wp-content/uploads/2019/11/2020-america-the-beautiful-quarters-coin-uncirculated-obverse-philadelphia-768x768.jpg');
   width: 200px;
   height: 200px;
-  border-radius: 5px;
-  background-color: #DDDDDD;
-  border: 60px solid #FF8C32;
-  cursor: pointer;
-  transition: border 1s;
-  font-weight: 600;
-  font-size: 20px;
-  box-shadow: rgba(206, 206, 216, 0.849) 0px 7px 29px 0px;
+  background-repeat: round;
+  border-radius: 50%;
+  margin-top: 30vh;
+  transition: transform 1s , scale 1s;
 }
 
-.toss_btn:hover{
-  background-color: #dddddd83;
-  border: 0px solid #fa7611;
+.image-of-coin-rotate {
+  transform: rotateZ(810deg);
+  scale: 5;
+}
+
+.head-tail-body {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#tail-image {
+  background-image: url('https://www.nicepng.com/png/full/146-1464848_quarter-tail-png-tails-on-a-coin.png');
+  background-repeat: round;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#heads-image {
+  background-image: url('https://www.usmint.gov/wordpress/wp-content/uploads/2019/11/2020-america-the-beautiful-quarters-coin-uncirculated-obverse-philadelphia-768x768.jpg');
+  background-repeat: round;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.result-img {
+  cursor: pointer;
 }
 
 
